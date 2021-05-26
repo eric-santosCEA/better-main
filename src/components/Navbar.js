@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div className="icon-bar">
-        <FiMenu size="30" className="icon" onClick={handleClick} />
+        <FiMenu size="40" className="icon" onClick={handleClick} />
       </div>
       <nav className={active ? 'links' : 'open'}>
         <Link to="/" className="link">
