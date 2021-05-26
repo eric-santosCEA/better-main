@@ -13,6 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div className="icon-bar">
+        <h3>Clean Energy America</h3>
         <FiMenu size="40" className="icon" onClick={handleClick} />
       </div>
       <nav className={active ? 'links' : 'open'}>

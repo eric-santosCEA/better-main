@@ -10,20 +10,20 @@ const Home = () => {
         <img
           src="./photos/solar300x300.webp"
           alt="solar icon"
-          height="150"
-          width="150"
+          height="125"
+          width="125"
         />
         <img
           src="./photos/roofing300x300.webp"
           alt="solar icon"
-          height="150"
-          width="150"
+          height="125"
+          width="125"
         />
         <img
           src="./photos/water300x300.webp"
           alt="solar icon"
-          height="150"
-          width="150"
+          height="125"
+          width="125"
         />
       </div>
     </div>
