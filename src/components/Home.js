@@ -1,5 +1,11 @@
 import React from 'react'
 import '../styles/home.css'
+import {
+  ImFacebook,
+  ImInstagram,
+  ImLinkedin,
+  ImArrowDown2,
+} from 'react-icons/im'
 import Navbar from './Navbar'
 
 const Home = () => {
@@ -26,6 +32,15 @@ const Home = () => {
           width="125"
         />
       </div>
+      <section className="social-media">
+        <div className="icons">
+          <ImFacebook className="icon" size="25" />
+          <ImInstagram className="icon" size="25" />
+          <ImLinkedin className="icon" size="25" />
+        </div>
+
+        <ImArrowDown2 className="icon" size="25" />
+      </section>
     </div>
   )
 }

@@ -2,7 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
+}
+@media screen and (min-width: 1586px) {
+  .icon-bar {
+    padding: 2rem;
+  }
+}
+.icon-bar h3 {
+  color: whitesmoke;
+}
+.icon-bar .icon {
+  color: whitesmoke;
 }
 .links {
   display: none;

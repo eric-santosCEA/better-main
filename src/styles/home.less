@@ -7,8 +7,30 @@
     justify-content: space-evenly;
     align-items: center;
     flex-flow: column;
+    @media screen and (min-width: 1586px) {
+      height: 80vh;
+    }
     img {
       border-radius: 50%;
+    }
+  }
+  .social-media {
+    display: none;
+    @media screen and (min-width: 1586px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row;
+      margin: 0 2rem;
+    }
+    .icons {
+      .icon {
+        margin: 0 1rem;
+        color: whitesmoke;
+      }
+    }
+    .icon {
+      color: whitesmoke;
     }
   }
 }

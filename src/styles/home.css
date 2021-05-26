@@ -9,6 +9,30 @@
   align-items: center;
   flex-flow: column;
 }
+@media screen and (min-width: 1586px) {
+  .home .images {
+    height: 80vh;
+  }
+}
 .home .images img {
   border-radius: 50%;
+}
+.home .social-media {
+  display: none;
+}
+@media screen and (min-width: 1586px) {
+  .home .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    margin: 0 2rem;
+  }
+}
+.home .social-media .icons .icon {
+  margin: 0 1rem;
+  color: whitesmoke;
+}
+.home .social-media .icon {
+  color: whitesmoke;
 }
