@@ -2,3 +2,12 @@
   background-color: #4f646f;
   height: 100vh;
 }
+.home .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+.home .images img {
+  border-radius: 50%;
+}

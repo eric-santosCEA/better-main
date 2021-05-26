@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
 
 const Navbar = () => {
-  const [active, setActive] = useState(false)
-
+  const [active, setActive] = useState(true)
   const handleClick = () => {
     setActive(!active)
     console.log(active)
